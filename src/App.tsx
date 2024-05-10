@@ -1,17 +1,20 @@
 import { ThemeProvider } from 'styled-components'
-import { Header } from './components/Header/Header.tsx'
+import { Header } from './components/Header/index.tsx'
 import { Home } from './components/Home'
 import { defaultTheme } from './styles/themes/default.ts'
 import { GlobalStyle } from './styles/global.ts'
-import headerImage from '/header-image.svg'
+import { Container } from './App.ts'
+
 
 export function App() {
   return(
     <ThemeProvider theme={defaultTheme}>
-     <Header />
+      <Header />
+     <Container>
+      
       <Home />
-        <img src={ headerImage } alt="" />
-        <button>CONTACT ME</button>
+     </Container>
+        
       <GlobalStyle />
     </ThemeProvider>
   )

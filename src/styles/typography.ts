@@ -12,10 +12,15 @@ export const typography = {
       font-weight: 400;
       font-size: 1.5rem;
     `,
+    titleHome: css`
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+  `,
     textHome: css`
-      font-family: "Montserrat", sans-serif;
+      font-family: "Lato", sans-serif;
       font-weight: 400;
-      font-size: 1.5rem;
+      font-size: 1.25rem;
     `
   }
 }

@@ -1,8 +1,14 @@
 {
   "header": {
-    "text": "about me descriptive text"
+    "nav": {
+      "first-item": "{ hev }",
+      "second-item": "Skills",
+      "third-item": "About me",
+      "fourth-item": "Contact me"
+    },
+    "text": "Currently, I'm focused on expanding  my knowledge through courses and bootcamps online, while I work on personal projects involving front-end and back-end. In these projects, I put into practice skills like server creation, API consumption, website structure and styling, in addition to versioning with Git."
   },
   "home": {
-    "body": "talk about me again :{"
+    "body": "about me descriptive text"
   }
 }
