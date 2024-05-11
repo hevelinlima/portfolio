@@ -28,11 +28,13 @@ export function Hero(){
   return(
     <HeroContainer> 
       <MainContainer>
-        <span className="typed-out">{typedText}</span>
-        <h3>{t("hero.title")}</h3>
-        <p>{t("hero.text")}</p>
+        <div>
+          <span className="typed-out">{typedText}</span>
+          <h3>{t("hero.title")}</h3>
+          <p>{t("hero.text")}</p>
+        </div>
+        <img src={ headerImage } alt="" />
       </MainContainer>
-      <img src={ headerImage } alt="" />
       <div className="separator" />
     </HeroContainer>
   )

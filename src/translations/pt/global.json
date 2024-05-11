@@ -7,7 +7,7 @@
   },
   "hero": {
     "span": "Olá, mundo!",
-    "title": "Eu sou a Hévelin, sou uma desenvolvedora front-end",
+    "title": "Eu sou Hévelin, uma desenvolvedora front-end.",
     "text": "Atualmente, estou focada em expandir meus conhecimentos através de cursos e bootcamps, enquanto trabalho em projetos pessoais envolvendo front e back-end. Nestes projetos, coloco em prática habilidades como criação de servidores, consumo de APIs, estruturação e estilização de sites para web, além de práticas de versionamento com Git e GitHub.",
     "body": "texto descritivo sobre mim"
   }
