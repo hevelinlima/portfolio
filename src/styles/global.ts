@@ -14,6 +14,6 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body, button, textarea, input{
-    ${typography.fonts.textHome};
+    ${typography.fonts.textHero};
   }
 `

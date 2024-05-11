@@ -6,14 +6,12 @@ export const HeaderContainer = styled.nav`
   ${typography.fonts.textNav};
   padding: 1rem 0;
   background-color: ${(props)=>props.theme.colors['background']};
-  /* border-bottom: 1px solid ${(props)=>props.theme.colors['secondary-color']}; */
   
   ul{
     list-style-type: none;
-      
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     
     a{
       text-decoration: none;
@@ -23,7 +21,7 @@ export const HeaderContainer = styled.nav`
 
 export const FirstItem = styled.li`
   ${typography.fonts.titleNav};
-  padding-right: 15rem;
+  
   a{
     color: ${(props)=> props.theme.colors["primary-color"]}; 
     &:hover{

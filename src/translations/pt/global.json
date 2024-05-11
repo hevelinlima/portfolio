@@ -1,14 +1,14 @@
 {
   "header": {
-    "nav": {
-      "first-item": "{ hev }",
+    "first-item": "{ hev }",
       "second-item": "Habilidades",
       "third-item": "Sobre mim",
       "fourth-item": "Contatos"
-    },
-    "text": "texto descritivo sobre mim"
   },
-  "home": {
-    "body": "Atualmente, estou focada em expandir meus conhecimentos através de cursos e bootcamps, enquanto trabalho em projetos pessoais envolvendo front e back-end. Nestes projetos, coloco em prática habilidades como criação de servidores, consumo de APIs, estruturação e estilização de sites para web, além de práticas de versionamento com Git e GitHub."
+  "hero": {
+    "span": "Olá, mundo!",
+    "title": "Eu sou a Hévelin, sou uma desenvolvedora front-end",
+    "text": "Atualmente, estou focada em expandir meus conhecimentos através de cursos e bootcamps, enquanto trabalho em projetos pessoais envolvendo front e back-end. Nestes projetos, coloco em prática habilidades como criação de servidores, consumo de APIs, estruturação e estilização de sites para web, além de práticas de versionamento com Git e GitHub.",
+    "body": "texto descritivo sobre mim"
   }
 }

@@ -11,12 +11,12 @@ export function Header(){
     <HeaderContainer>
         <ul>
           <FirstItem>
-            <li><a href="">{t("header.nav.first-item")}</a></li>
+            <li><a href="">{t("header.first-item")}</a></li>
           </FirstItem>
           <OtherItens>
-            <li><a href="">{t("header.nav.second-item")}</a></li>
-            <li><a href="">{t("header.nav.third-item")}</a></li>
-            <li><a href="">{t("header.nav.fourth-item")}</a></li>
+            <li><a href="">{t("header.second-item")}</a></li>
+            <li><a href="">{t("header.third-item")}</a></li>
+            <li><a href="">{t("header.fourth-item")}</a></li>
             <li>
               <select onChange={handleChangeLanguage} defaultValue={i18n.language}>
                 <option value="en">English</option>
