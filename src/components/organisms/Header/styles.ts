@@ -1,10 +1,9 @@
 import styled from "styled-components";
-import { typography } from "../../styles/typography";
+import { typography } from "../../../styles/typography";
 
 
 export const HeaderContainer = styled.nav`
   ${typography.fonts.textNav};
-  padding: 1rem 0;
   background-color: ${(props)=>props.theme.colors['background']};
   
   ul{
@@ -37,7 +36,8 @@ export const OtherItens = styled.li`
     color: ${(props)=> props.theme.colors["secondary-color"]};
 
     &:hover{
-    color: ${(props)=> props.theme.colors["primary-color"]};
+      color: ${(props)=> props.theme.colors["primary-color"]};
+      border-bottom: 3px solid ${(props)=>props.theme.colors['primary-color']};
     }
   }
 `

@@ -20,7 +20,7 @@ export function Hero(){
         setTimeout(()=>{
           setTypedText("");
           setRestartEffect(!restartEffect);
-        }, 2000);
+        }, 5000);
       }
     }, 100); 
     return () => clearInterval(interval);

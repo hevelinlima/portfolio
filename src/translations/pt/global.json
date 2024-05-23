@@ -1,14 +1,37 @@
 {
   "header": {
     "first-item": "{ hev }",
-      "second-item": "Habilidades",
-      "third-item": "Sobre mim",
-      "fourth-item": "Contatos"
+    "second-item": "Projetos",
+    "third-item": "Sobre mim",
+    "fourth-item": "Contatos"
   },
   "hero": {
     "span": "Olá, mundo!",
     "title": "Eu sou Hévelin, uma desenvolvedora front-end.",
-    "text": "Atualmente, estou focada em expandir meus conhecimentos através de cursos e bootcamps, enquanto trabalho em projetos pessoais envolvendo front e back-end. Nestes projetos, coloco em prática habilidades como criação de servidores, consumo de APIs, estruturação e estilização de sites para web, além de práticas de versionamento com Git e GitHub.",
-    "body": "texto descritivo sobre mim"
-  }
+    "text": "Atualmente, estou focada em expandir meus conhecimentos através de cursos e bootcamps, enquanto trabalho em projetos pessoais envolvendo front e back-end. Nestes projetos, coloco em prática habilidades como criação de servidores, consumo de APIs, estruturação e estilização de sites para web, além de práticas de versionamento com Git e GitHub."
+  },
+  "skills": {},
+  "projects": {
+    "title": "Projetos",
+    "items": [
+      {
+        "id": 1,
+        "name": "AMOR & PATAS",
+        "description": "AMOR & PATAS é um sistema de gerenciamento de abrigo para animais que permite cadastrar espécies, raças, portes, gêneros, animais e colaboradores (voluntários e cuidadores), realizado apenas por um administrador. A aplicação pública inclui páginas de início, lista de animais para adoção, apresentação dos colaboradores e contato.",
+        "stack": "fullstack",
+        "linkGithub": "https://github.com/hevelinlima/amor-patas",
+        "linkDeploy": "hevelinmiranda.pythonanywhere.com/",
+        "previewImage": "amorepatas-preview.jpeg"
+      },
+      {
+        "id": 2,
+        "name": "Coffee Delivery",
+        "description": "AMOR & PATAS é um sistema de gerenciamento de abrigo para animais que permite cadastrar espécies, raças, portes, gêneros, animais e colaboradores (voluntários e cuidadores), realizado apenas por um administrador. A aplicação pública inclui páginas de início, lista de animais para adoção, apresentação dos colaboradores e contato.",
+        "stack": "fullstack",
+        "linkGithub": "https://github.com/hevelinlima/amor-patas",
+        "linkDeploy": "hevelinmiranda.pythonanywhere.com/",
+        "previewImage": "amorepatas-preview.jpeg"
+      }
+    ]
+  }  
 }
