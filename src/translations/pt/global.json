@@ -10,7 +10,6 @@
     "title": "Eu sou Hévelin, uma desenvolvedora front-end.",
     "text": "Atualmente, estou focada em expandir meus conhecimentos através de cursos e bootcamps, enquanto trabalho em projetos pessoais envolvendo front e back-end. Nestes projetos, coloco em prática habilidades como criação de servidores, consumo de APIs, estruturação e estilização de sites para web, além de práticas de versionamento com Git e GitHub."
   },
-  "skills": {},
   "projects": {
     "title": "Projetos",
     "items": [
@@ -20,18 +19,28 @@
         "description": "AMOR & PATAS é um sistema de gerenciamento de abrigo para animais que permite cadastrar espécies, raças, portes, gêneros, animais e colaboradores (voluntários e cuidadores), realizado apenas por um administrador. A aplicação pública inclui páginas de início, lista de animais para adoção, apresentação dos colaboradores e contato.",
         "stack": "fullstack",
         "linkGithub": "https://github.com/hevelinlima/amor-patas",
-        "linkDeploy": "hevelinmiranda.pythonanywhere.com/",
+        "linkDeploy": "https://hevelinmiranda.pythonanywhere.com/",
         "previewImage": "amorepatas-preview.jpeg"
       },
       {
         "id": 2,
         "name": "Coffee Delivery",
-        "description": "AMOR & PATAS é um sistema de gerenciamento de abrigo para animais que permite cadastrar espécies, raças, portes, gêneros, animais e colaboradores (voluntários e cuidadores), realizado apenas por um administrador. A aplicação pública inclui páginas de início, lista de animais para adoção, apresentação dos colaboradores e contato.",
-        "stack": "fullstack",
-        "linkGithub": "https://github.com/hevelinlima/amor-patas",
-        "linkDeploy": "hevelinmiranda.pythonanywhere.com/",
-        "previewImage": "amorepatas-preview.jpeg"
+        "description": "Coffee Delivery é uma aplicação para gerenciar um carrinho de compras de uma cafeteria fictícia, com funcionalidades como listagem de cafés, ajuste de quantidade no carrinho, formulário de endereço, e exibição do total de itens e valores. Utiliza conceitos de estados, ContextAPI, reducers, LocalStorage, imutabilidade, listas e chaves no ReactJS, propriedades, componentização, styled-components e React Hook Forms.",
+        "stack": "frontend",
+        "linkGithub": "https://github.com/hevelinlima/coffee-delivery",
+        "linkDeploy": "https://coffee-delivery-app-hevelinlima.vercel.app/",
+        "previewImage": "coffee-delivery-preview.png"
+      },
+      {
+        "id": 3,
+        "name": "Desafio - Linked",
+        "description": "Magic: The Gathering é um jogo de cartas colecionáveis onde jogadores usam baralhos personalizados para conjurar criaturas e lançar feitiços. Esta aplicação permite pesquisar coleções de cartas pelo nome e/ou bloco, selecionando uma coleção para obter 15 cartas aleatórias. O processo repete até conseguir 30 cartas do tipo criatura.",
+        "stack": "frontend",
+        "linkGithub": "https://github.com/hevelinlima/desafio-linked",
+        "linkDeploy": "https://desafio-linked-hevelinlima.vercel.app/",
+        "previewImage": "desafiolinked-preview.png"
       }
     ]
-  }  
+  },
+  "skills": {}
 }

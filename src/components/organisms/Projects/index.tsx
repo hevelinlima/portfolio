@@ -1,6 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import { ProjectCard } from "./styles";
+import { LinkIcons, ProjectCard } from "./styles";
 
 interface ProjectsProps{
   projectId: number;
@@ -12,6 +12,8 @@ interface ProjectItem {
   previewImage: string;
   name: string;
   description: string;
+  linkGithub: string;
+  linkDeploy: string;
 }
 
 export const Projects: React.FC<ProjectsProps> = ({ projectId , reverse }) => {
@@ -31,8 +33,17 @@ export const Projects: React.FC<ProjectsProps> = ({ projectId , reverse }) => {
       <img src={project.previewImage} alt={project.name} />
       <div className="description">
         {project.description}
+        <LinkIcons>
+          <a href={project.linkDeploy}>
+            <img src="deploy-icon.png" alt="" />
+            Deploy
+          </a>
+          <a href={project.linkGithub}>
+            <img src="github.svg" alt="" />
+            Repo
+          </a>
+        </LinkIcons>
       </div>
     </ProjectCard>
   )
 }
-
