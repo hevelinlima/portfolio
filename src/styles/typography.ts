@@ -31,6 +31,12 @@ export const typography = {
       font-weight: 400;
       font-size: 1.5rem;
       line-height: 1.3;
-    `
+    `,
+    textBody: css`
+    font-family: "Expletus Sans", sans-serif;
+    font-weight: 600;
+    font-size: 2.25rem;
+    line-height: 1.6;
+  `,
   }
 }

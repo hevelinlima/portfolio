@@ -35,12 +35,12 @@ export const Projects: React.FC<ProjectsProps> = ({ projectId , reverse }) => {
         {project.description}
         <LinkIcons>
           <a href={project.linkDeploy}>
-            <img src="deploy-icon.png" alt="" />
-            Deploy
+            <img src="deploy-icon.svg" className="icon-img" alt="" />
+            <span>Deploy</span>
           </a>
           <a href={project.linkGithub}>
-            <img src="github.svg" alt="" />
-            Repo
+            <img src="github.svg" className="icon-img" alt="" />
+            <span>Code</span>
           </a>
         </LinkIcons>
       </div>
