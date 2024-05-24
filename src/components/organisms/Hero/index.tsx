@@ -2,6 +2,7 @@ import { useTranslation } from "react-i18next"
 import { HeroContainer, MainContainer } from "./styles"
 import headerImage from '/header-image.svg'
 import { useEffect, useState } from "react";
+import { Separator } from "../../atoms/Separator";
 
 export function Hero(){
   const { t } = useTranslation("global")
@@ -35,7 +36,7 @@ export function Hero(){
         </div>
         <img src={ headerImage } alt="" />
       </MainContainer>
-      <div className="separator" />
+      <Separator />
     </HeroContainer>
   )
 }

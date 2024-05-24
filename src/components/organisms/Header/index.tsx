@@ -1,16 +1,19 @@
 import { useTranslation } from "react-i18next"
 import { FirstItem, HeaderContainer, OtherItems, ToggleButton } from './styles.ts'
+import { useState } from "react";
 
 export function Header(){
   const { t, i18n } = useTranslation("global");
+  const [menuOpen, setMenuOpen] = useState(false);
+
   const handleChangeLanguage = (event: React.ChangeEvent<HTMLSelectElement>) => {
     const lang = event.target.value;
     i18n.changeLanguage(lang)
   };
 
-  function handleToggleMenu(){
-
-  }
+  const handleToggleMenu = () => {
+    setMenuOpen((open) => !open);
+  };
 
   return(
     <HeaderContainer>
@@ -18,10 +21,7 @@ export function Header(){
           <FirstItem>
             <li><a href="">{t("header.first-item")}</a></li>
           </FirstItem>
-          <ToggleButton onClick={handleToggleMenu}>
-            <img src="toggle-button.svg" alt="" />
-          </ToggleButton>
-          <OtherItems>
+          <OtherItems className={menuOpen ? "open" : ""}>
             <li><a href="">{t("header.second-item")}</a></li>
             <li><a href="">{t("header.third-item")}</a></li>
             <li><a href="">{t("header.fourth-item")}</a></li>
@@ -32,6 +32,9 @@ export function Header(){
               </select>
             </li>
           </OtherItems>
+          <ToggleButton onClick={handleToggleMenu}>
+            <img src="toggle-button.svg" alt="" />
+          </ToggleButton>
         </ul>
       </HeaderContainer>
   )

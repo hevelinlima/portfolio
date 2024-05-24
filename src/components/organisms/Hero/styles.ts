@@ -6,13 +6,6 @@ export const HeroContainer = styled.header`
     max-height: 28rem;
     height: auto;
   }
-  .separator{
-    padding-bottom: 3rem;
-    border-bottom: 2px solid ${(props)=>props.theme.colors['separator-color']};
-    &:hover{
-      border-bottom: 2px solid ${(props)=>props.theme.colors['primary-color']};
-    }
-  }
   @media only screen and (max-width: 768px) {
    img{
     width: 90%;
