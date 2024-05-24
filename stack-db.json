@@ -1,0 +1,12 @@
+{
+  "skills":{
+    "bootstrap": "src/assets/stack-icons/bootstrap5.svg",
+    "css": "src/assets/stack-icons/css3.svg",
+    "django": "src/assets/stack-icons/django.svg",
+    "git": "src/assets/stack-icons/git.svg",
+    "html": "src/assets/stack-icons/html5.svg",
+    "python": "src/assets/stack-icons/python.svg",
+    "react": "src/assets/stack-icons/reactjs.svg",
+    "typescript": "src/assets/stack-icons/typescript.svg"
+  }
+}

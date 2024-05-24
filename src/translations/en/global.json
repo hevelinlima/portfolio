@@ -42,5 +42,8 @@
       }
     ]
   },
-  "skills": {}  
+  "about-me": {
+    "title": "About me",
+    "skills": "Skills"
+  }  
 }
