@@ -29,7 +29,7 @@ export const FirstItem = styled.li`
   }
 `
 
-export const OtherItens = styled.li`
+export const OtherItems = styled.li`
   display: flex;
   gap: 2rem;
   a{
@@ -39,5 +39,18 @@ export const OtherItens = styled.li`
       color: ${(props)=> props.theme.colors["primary-color"]};
       border-bottom: 3px solid ${(props)=>props.theme.colors['primary-color']};
     }
+  }
+  @media only screen and (max-width: 768px) {
+    display: none;
+  }
+`
+
+export const ToggleButton = styled.button`
+  display: none;
+  background: transparent;
+  border: none;
+
+  @media only screen and (max-width: 768px) {
+    display: block;
   }
 `

@@ -3,7 +3,8 @@ import { typography } from "../../../styles/typography";
 
 export const HeroContainer = styled.header`
   img{
-    height: 28rem;
+    max-height: 28rem;
+    height: auto;
   }
   .separator{
     padding-bottom: 3rem;
@@ -23,20 +24,26 @@ export const MainContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
   div{
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+
     .typed-out {
-    ${typography.fonts.spanHero};
-    
-  }
+      ${typography.fonts.spanHero};
+    }
     h3{
       color: ${(props)=> props.theme.colors['primary-color']};
     }
   }
   @media only screen and (max-width: 768px) {
     flex-direction: column;
+
+    .typed-out{
+      padding-top: 1.5rem;
+    }
+    p{
+      text-align: justify;
+    }
   } 
 `

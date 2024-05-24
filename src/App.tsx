@@ -2,7 +2,7 @@ import { ThemeProvider } from 'styled-components'
 
 import { defaultTheme } from './styles/themes/default.ts'
 import { GlobalStyle } from './styles/global.ts'
-import { Container, ProjectSection } from './App.ts'
+import { Container, ProjectCard, ProjectSection } from './App.ts'
 import { Projects } from './components/organisms/Projects/index.tsx'
 import { Header } from './components/organisms/Header/index.tsx'
 import { Hero } from './components/organisms/Hero/index.tsx'
@@ -19,7 +19,7 @@ export function App() {
         <Hero />
         <ProjectSection>
           <h2>{t("projects.title")}</h2>
-          <div>
+          <ProjectCard>
             {projectIds.map((projectId, index) => (
               <Projects
                 key={projectId}
@@ -27,7 +27,7 @@ export function App() {
                 reverse={index % 2 !== 0}
               />
             ))}
-          </div>
+          </ProjectCard>
         </ProjectSection>
       </Container>
       <GlobalStyle />

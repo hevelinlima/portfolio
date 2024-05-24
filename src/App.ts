@@ -20,3 +20,9 @@ export const ProjectSection = styled.div`
     padding: 0 1rem 0 1rem;
   }
 `
+
+export const ProjectCard = styled.div`
+  @media only screen and (max-width: 768px) {
+    width: auto; 
+  }
+`
