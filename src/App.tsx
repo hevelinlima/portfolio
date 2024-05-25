@@ -9,6 +9,7 @@ import { Hero } from './components/organisms/Hero/index.tsx'
 import { useTranslation } from 'react-i18next'
 import { Separator } from './components/atoms/Separator/index.tsx'
 import { AboutMe } from './components/organisms/AboutMe/index.tsx'
+import { Contacts } from './components/organisms/Contacts/index.tsx'
 
 const projectIds = [1, 2, 3];
 
@@ -36,6 +37,7 @@ export function App() {
         <Separator />
         <AboutMe />
       </Container>
+      <Contacts />
       <GlobalStyle />
     </ThemeProvider>
   )

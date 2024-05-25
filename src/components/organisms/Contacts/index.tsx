@@ -1,16 +1,20 @@
 import { useTranslation } from "react-i18next";
-import { ContactsSection } from "./styles";
+import { ContactButtons, ContactsSection, HeaderContacts } from "./styles";
 
 export function Contacts(){
   const { t } = useTranslation("global")
   return(
     <ContactsSection>
-      <span>{t("contacts.text")}</span>
-      <h2>{t("contacts.title")}</h2>
-      <div>Github</div>
-      <div>Discord</div>
-      <div>Email</div>
-      <div></div>
+      <HeaderContacts>
+        <span>{t("contacts.text")}</span>
+        <h2>{t("contacts.title")}</h2>
+      </HeaderContacts>
+      <ContactButtons>
+        <a href=""><img src="github.svg" alt="" /></a>
+        <a href=""><img src="linkedin.svg" alt="" /></a>
+        <a href=""><img src="discord.svg" alt="" /></a>
+        <a href=""><img src="email.png" alt="" /></a>
+      </ContactButtons>
     </ContactsSection>
   )
 }
