@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const ProjectCard = styled.div<{ reverse?: boolean }>`
+export const ProjectCard = styled.div<{ reverse?: string }>`
   display: flex;
   align-items: center;
   margin: 1.25rem 0;
@@ -29,7 +29,7 @@ export const ProjectCard = styled.div<{ reverse?: boolean }>`
     flex-direction: column;
 
     img{
-      width: 18rem;
+      max-width: 18rem;
     }
   }
 `

@@ -63,5 +63,9 @@
         "skills": "Ementa: Java e Spring Framework, integração de aplicações com Java e ChatGPT, desenvolvimento pessoal, empreendedorismo e agilidade"
       }
     ] 
-  }
+  },
+  "contacts": {
+    "title": "Entre em contato!",
+    "text": "Interessou-se por algum tema? Estou aberta para conversar e colaborar!"
+  }  
 }

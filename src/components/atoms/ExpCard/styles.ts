@@ -9,6 +9,7 @@ export const ExpContainer = styled.div`
   margin: 1rem;
 
   display: flex;
+  justify-content: center;
   flex-direction: column;
   gap: 0.25rem;
 

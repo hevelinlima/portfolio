@@ -4,6 +4,7 @@ export const defaultTheme = {
     'nav-color': '#171717',
     'primary-color': '#a3e4c9',
     'secondary-color': '#fcf5e5',
-    'separator-color': '#E2DFD2'
+    'separator-color': '#E2DFD2',
+    'contacts': '#332b3b'
   }
 }

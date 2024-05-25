@@ -28,7 +28,7 @@ export const HeaderContainer = styled.nav`
   }
 `
 
-export const FirstItem = styled.li`
+export const FirstItem = styled.div`
   ${typography.fonts.titleNav};
   
   a{

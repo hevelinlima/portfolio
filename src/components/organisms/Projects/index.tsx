@@ -27,9 +27,11 @@ export const Projects: React.FC<ProjectsProps> = ({ projectId , reverse }) => {
   if (!project) {
     return <div>Project not found</div>;
   }
+
+  const projectCardProps = reverse ? { reverse: "true" } : {};
  
   return(
-    <ProjectCard reverse={reverse}>
+    <ProjectCard {...projectCardProps}>
       <img src={project.previewImage} alt={project.name} />
       <div className="description">
         {project.description}

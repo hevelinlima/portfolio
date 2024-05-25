@@ -63,5 +63,9 @@
         "skills": "Syllabus: Java and Spring Framework, App integration with Java and ChatGPT, personal development, entrepreneurship and agility"
       }
     ]
+  },
+  "contacts": {
+    "title": "Let's Talk!",
+    "text": "Want to start a project?"
   }  
 }
