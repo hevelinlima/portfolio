@@ -13,7 +13,7 @@ export const ProjectCard = styled.div<{ reverse?: string }>`
   flex-direction: ${({ reverse }) => (reverse ? 'row-reverse' : 'row')};
 
   img {
-    width: 25rem;
+    max-width: 25rem;
     height: auto;
     border-radius: 30px;
     margin-right: ${({ reverse }) => (reverse ? '0' : '1.25rem')};
@@ -27,9 +27,9 @@ export const ProjectCard = styled.div<{ reverse?: string }>`
 
   @media (max-width: 768px) {
     flex-direction: column;
-
+    
     img{
-      max-width: 18rem;
+      max-width: 15rem;
     }
   }
 `

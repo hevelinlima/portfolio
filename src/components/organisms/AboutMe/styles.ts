@@ -13,7 +13,7 @@ export const AboutMeContainer = styled.div`
     background-color: ${(props)=>props.theme.colors["background"]};
   }
   @media only screen and (max-width: 1000px) {
-    margin-top: -2.7rem;
+    margin-top: -1.7rem;
   }
 `
 
@@ -34,8 +34,8 @@ export const ExpContainer =styled.div`
   display: flex;
   flex-wrap: wrap;
   
-
   @media (max-width: 1000px) {
+    padding: 0.5rem;
     width: auto;
   }
 `

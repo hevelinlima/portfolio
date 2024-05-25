@@ -19,7 +19,7 @@ export const ExpContainer = styled.div`
   }
   @media (max-width: 1000px) {
     width: auto;
-    padding: 0.5rem;
+    padding: 1rem;
     margin: 1rem 0;
   }
 `

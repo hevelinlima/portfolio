@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { typography } from "../../../styles/typography";
 
 export const ContactsSection = styled.section`
   background-color: ${(props)=>props.theme.colors.contacts};
@@ -14,7 +15,17 @@ export const ContactsSection = styled.section`
 `
 
 export const HeaderContacts = styled.header`
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  span{
+    ${typography.fonts.textHero};
+    flex-wrap: wrap;
+  }
+  h2{
+    ${typography.fonts.titleNav};
+    line-height: 1.2;
+  }
 `
 
 export const ContactButtons = styled.div`
@@ -43,5 +54,5 @@ export const ContactButtons = styled.div`
   a:hover {
     transform: scale(1.2); 
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); 
-}
+  }
 `

@@ -7,9 +7,10 @@ export const Container = styled.main`
   padding: 0.5rem 4rem;
 
   @media only screen and (max-width: 1000px) {
-    padding: 0.75rem;
-    div{
-      padding: 1rem; 
+    padding: 1.5rem;
+   
+    .header-main{
+      padding: 1.5rem; 
     }
   }
 `
@@ -26,11 +27,14 @@ export const ProjectSection = styled.div`
     padding: 0 1rem 0 1rem;
   }
   @media only screen and (max-width: 768px) {
-    margin-top: -1rem;
+    h2{
+      margin-top: -3rem;
+    }
   }
 `
 
-export const ProjectCard = styled.div`
+export const ProjectCards = styled.div`
+  width: auto;
   @media only screen and (max-width: 768px) {
     width: auto; 
   }
