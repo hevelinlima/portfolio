@@ -12,7 +12,7 @@ export const AboutMeContainer = styled.div`
     ${typography.fonts.textBody}
     background-color: ${(props)=>props.theme.colors["background"]};
   }
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 1000px) {
     margin-top: -2.7rem;
   }
 `
@@ -21,9 +21,12 @@ export const SkillsSection = styled.section`
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 
   padding: 0 2rem;
   img{
     margin: 1.25rem;
+    height: 3.5rem;
   }
+ 
 `

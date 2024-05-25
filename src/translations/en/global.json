@@ -44,6 +44,24 @@
   },
   "about-me": {
     "title": "About me",
-    "skills": "Skills"
+    "skills": "Skills",
+    "experiences":[
+      {
+        "id": 1,
+        "name": "Bootcamp Back-end Python and Django",
+        "status": "Complete",
+        "org": "WoMakersCode",
+        "description": "It's a 3.5-month course in Python, covering the concepts of the language, the main web development frameworks and integration with Artificial Intelligence.",
+        "skills": "Syllabus: Algorithms and Object Orientation in Python, Data Structure, API Development with FastAPI, Django, Architecture and Tests, Git, GitHub, Database, Cloud Computing. Soft skills, career plan and employability"
+      },
+      {
+        "id": 2,
+        "name": "ONE - Oracle Next Education: Back-end specialization with Java",
+        "status": "In progress",
+        "org": "Alura + Oracle ONE",
+        "description": "An 6-month back-end coding curriculum designed to provide high-quality industry level training with an emphasis on hands-on projects.",
+        "skills": "Syllabus: Java and Spring Framework, App integration with Java and ChatGPT, personal development, entrepreneurship and agility"
+      }
+    ]
   }  
 }

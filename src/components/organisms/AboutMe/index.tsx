@@ -15,7 +15,7 @@ export function AboutMe(){
       <h2>{t("about-me.title")}</h2>
       <SkillsSection>
         {Object.keys(skills).map((skill) => (
-          <img key={skill} src={skills[skill]} alt="" /> 
+          <img key={skill} src={skills[skill]} alt={skill} /> 
         ))}
       </SkillsSection>
     </AboutMeContainer>
