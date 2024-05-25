@@ -52,7 +52,7 @@
         "status": "Concluído",
         "org": "WoMakersCode",
         "description": "É uma formação de 3,5 meses em Python, abordando os conceitos da linguagem, principais frameworks de desenvolvimento web e integração com Inteligência Artificial.",
-        "skills": "Ementa: Algoritmos e Orientação a Objetos em Python, Estrutura de Dados, Desenvolvimento de APIs com FastAPI, Django, Arquitetura e Testes, Git, GitHub, Banco de Dados, Computação em Nuvem. Soft skills, plano de carreira e empregabilidade"
+        "skills": "Ementa: Orientação a objetos em Python, estrutura de dados, Desenvolvimento de APIs, arquitetura e testes, banco de Dados. Soft skills, plano de carreira e empregabilidade"
       },
       {
         "id": 2,

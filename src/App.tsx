@@ -10,7 +10,7 @@ import { useTranslation } from 'react-i18next'
 import { Separator } from './components/atoms/Separator/index.tsx'
 import { AboutMe } from './components/organisms/AboutMe/index.tsx'
 
-const projectIds = [1, 2, 3]
+const projectIds = [1, 2, 3];
 
 export function App() {
   const { t } = useTranslation("global")

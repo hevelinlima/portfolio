@@ -28,5 +28,14 @@ export const SkillsSection = styled.section`
     margin: 1.25rem;
     height: 3.5rem;
   }
- 
+`
+
+export const ExpContainer =styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  
+
+  @media (max-width: 1000px) {
+    width: auto;
+  }
 `

@@ -52,7 +52,7 @@
         "status": "Complete",
         "org": "WoMakersCode",
         "description": "It's a 3.5-month course in Python, covering the concepts of the language, the main web development frameworks and integration with Artificial Intelligence.",
-        "skills": "Syllabus: Algorithms and Object Orientation in Python, Data Structure, API Development with FastAPI, Django, Architecture and Tests, Git, GitHub, Database, Cloud Computing. Soft skills, career plan and employability"
+        "skills": "Syllabus: Object orientation in Python, data structure, API development, Architecture and tests, database. Soft skills, career plan and employability"
       },
       {
         "id": 2,

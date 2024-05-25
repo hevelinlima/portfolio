@@ -1,10 +1,13 @@
 import { useTranslation } from "react-i18next";
-import { AboutMeContainer, SkillsSection } from "./styles";
+import { AboutMeContainer, ExpContainer, SkillsSection } from "./styles";
 import stackIcons from "../../../../stack-db.json"
+import { ExpCard } from "../../atoms/ExpCard";
 
 interface Skills {
   [key: string]: string;
 }
+
+const expIds = [1, 2];
 
 export function AboutMe(){
   const { t } = useTranslation("global");
@@ -18,6 +21,14 @@ export function AboutMe(){
           <img key={skill} src={skills[skill]} alt={skill} /> 
         ))}
       </SkillsSection>
+      <ExpContainer>
+        {expIds.map((expId) => (
+          <ExpCard
+            key={expId} 
+            expId={expId}
+          />
+        ))}
+      </ExpContainer>
     </AboutMeContainer>
   )
 }
