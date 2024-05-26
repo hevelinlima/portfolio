@@ -66,6 +66,8 @@
   },
   "contacts": {
     "title": "Let's Talk!",
-    "text": "Want to start a project?"
+    "text": "Want to start a project?",
+    "or": "or",
+    "email-me": "find me here:"
   }  
 }

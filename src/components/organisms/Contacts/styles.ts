@@ -12,12 +12,17 @@ export const ContactsSection = styled.section`
 
   margin: 1.5rem auto;
   padding: 1rem 4rem;
+  @media only screen and (max-width: 768px) {
+    padding: 1rem 0;
+  }
+
 `
 
 export const HeaderContacts = styled.header`
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 1rem;
   span{
     ${typography.fonts.textHero};
     flex-wrap: wrap;
@@ -25,6 +30,15 @@ export const HeaderContacts = styled.header`
   h2{
     ${typography.fonts.titleNav};
     line-height: 1.2;
+  }
+  .span-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    span{
+      ${typography.fonts.titleNav};
+      font-size: 1.25rem;
+    }
   }
 `
 
@@ -54,5 +68,20 @@ export const ContactButtons = styled.div`
   a:hover {
     transform: scale(1.2); 
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); 
+  }
+`
+
+export const EmailButton = styled.a`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  img{
+    height: 2rem;
   }
 `

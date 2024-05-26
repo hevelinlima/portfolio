@@ -5,6 +5,7 @@ export const HeroContainer = styled.header`
   img{
     max-height: 28rem;
     height: auto;
+    width: auto;
   }
   @media only screen and (max-width: 768px) {
    img{

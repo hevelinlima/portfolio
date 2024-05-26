@@ -7,10 +7,11 @@ export const Container = styled.main`
   padding: 0.5rem 4rem;
 
   @media only screen and (max-width: 1000px) {
-    padding: 1.5rem;
-   
+    padding: 1rem 0;
+    max-width: 20rem;
+    margin: 1.5rem auto;
     .header-main{
-      padding: 1.5rem; 
+      padding: 1.5rem 0; 
     }
   }
 `
