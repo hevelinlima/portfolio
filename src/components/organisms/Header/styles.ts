@@ -83,3 +83,28 @@ export const ToggleButton = styled.button`
     display: block;
   }
 `
+
+export const SelectButton = styled.select`
+  width: 4rem;
+  border: 2px solid white;
+  border-radius: 8px;
+  background: transparent;
+  color: white;
+  padding: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  ${typography.fonts.textNav};
+  font-size: 1rem;
+  font-weight: bold;
+
+  &:hover{
+    color: ${(props)=> props.theme.colors['primary-color']};
+    border: 2px solid ${(props)=> props.theme.colors['primary-color']};
+    cursor: pointer;
+  }
+`

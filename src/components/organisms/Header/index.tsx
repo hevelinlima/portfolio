@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next"
-import { FirstItem, HeaderContainer, OtherItems, ToggleButton } from './styles.ts'
+import { FirstItem, HeaderContainer, OtherItems, SelectButton, ToggleButton } from './styles.ts'
 import { useState } from "react";
 
 export function Header(){
@@ -26,10 +26,10 @@ export function Header(){
             <li><a href="">{t("header.third-item")}</a></li>
             <li><a href="">{t("header.fourth-item")}</a></li>
             <li>
-              <select onChange={handleChangeLanguage} defaultValue={i18n.language}>
-                <option value="en">English</option>
-                <option value="pt">Português(BR)</option>
-              </select>
+              <SelectButton onChange={handleChangeLanguage} defaultValue={i18n.language}>
+                <option value="en">EN</option>
+                <option value="pt">PT-BR</option>
+              </SelectButton>
             </li>
           </OtherItems>
           <ToggleButton onClick={handleToggleMenu}>

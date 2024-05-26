@@ -22,6 +22,7 @@ export const HeaderContacts = styled.header`
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 1rem;
   span{
     ${typography.fonts.textHero};
@@ -76,12 +77,21 @@ export const EmailButton = styled.a`
   align-items: center;
   justify-content: center;
   gap: 0.75rem;
-  background-color: white;
-  color: black;
+  border: 2px solid whitesmoke;
+  border-radius: 20px;
+  color: whitesmoke;
   font-weight: bold;
   padding: 0.5rem 1rem;
   text-decoration: none;
-  img{
+  transition: all 0.2s;
+  svg{
     height: 2rem;
+  }
+  &:hover{
+    background-color: #444;
+    border: 2px solid #444;
+    svg{
+      fill: black;
+    }
   }
 `
