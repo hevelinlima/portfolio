@@ -2,7 +2,7 @@ import { ThemeProvider } from 'styled-components'
 
 import { defaultTheme } from './styles/themes/default.ts'
 import { GlobalStyle } from './styles/global.ts'
-import { Container, ProjectCards, ProjectSection } from './App.ts'
+import { Container, Footer, ProjectCards, ProjectSection } from './App.ts'
 import { Projects } from './components/organisms/Projects/index.tsx'
 import { Header } from './components/organisms/Header/index.tsx'
 import { Hero } from './components/organisms/Hero/index.tsx'
@@ -20,10 +20,10 @@ export function App() {
       <Container>
         <div className='header-main'>
           <Header />
-          <Hero />
+          <Hero id="hero"/>
         </div>
        
-        <ProjectSection>
+        <ProjectSection id="projects">
           <h2>{t("projects.title")}</h2>
           <ProjectCards>
             {projectIds.map((projectId, index) => (
@@ -36,9 +36,12 @@ export function App() {
           </ProjectCards>
         </ProjectSection>
         <Separator />
-        <AboutMe />
+        <AboutMe id="aboutme" />
       </Container>
-      <Contacts />
+      <Contacts id="contact" />
+      <Footer>
+        <p>&copy; {t("footer.content")}</p>
+      </Footer>
       <GlobalStyle />
     </ThemeProvider>
   )

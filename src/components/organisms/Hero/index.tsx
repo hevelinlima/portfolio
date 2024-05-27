@@ -4,7 +4,11 @@ import headerImage from '/header-image.svg'
 import { useEffect, useState } from "react";
 import { Separator } from "../../atoms/Separator";
 
-export function Hero(){
+interface HeroProps{
+  id?: string
+}
+
+export const Hero: React.FC<HeroProps> = ({ id }) => {
   const { t } = useTranslation("global")
   const [typedText, setTypedText] = useState("");
   const [restartEffect, setRestartEffect] = useState(false);
@@ -27,7 +31,7 @@ export function Hero(){
     return () => clearInterval(interval);
   }, [t, restartEffect]);
   return(
-    <HeroContainer> 
+    <HeroContainer id={id}> 
       <MainContainer>
         <div>
           <span className="typed-out">{typedText}</span>

@@ -69,5 +69,8 @@
     "text": "Want to start a project?",
     "or": "or",
     "email-me": "find me here:"
-  }  
+  },
+  "footer":{
+    "content": "2024 Hévelin Lima. All rights reserved."
+  } 
 }

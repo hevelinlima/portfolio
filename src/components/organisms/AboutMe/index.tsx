@@ -7,14 +7,18 @@ interface Skills {
   [key: string]: string;
 }
 
+interface AboutMeProps{
+  id?: string;
+}
+
 const expIds = [1, 2];
 
-export function AboutMe(){
+export const AboutMe: React.FC<AboutMeProps> = ({ id }) => {
   const { t } = useTranslation("global");
   const skills: Skills = stackIcons.skills;
 
   return(     
-    <AboutMeContainer>
+    <AboutMeContainer id={id}>
       <h2>{t("about-me.title")}</h2>
       <SkillsSection>
         {Object.keys(skills).map((skill) => (

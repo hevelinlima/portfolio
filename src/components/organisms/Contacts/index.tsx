@@ -1,10 +1,14 @@
 import { useTranslation } from "react-i18next";
 import { ContactButtons, ContactsSection, EmailButton, HeaderContacts } from "./styles";
 
-export function Contacts(){
+interface ContactsProps {
+  id?: string;
+}
+
+export const Contacts: React.FC<ContactsProps> = ({ id }) => {
   const { t } = useTranslation("global")
   return(
-    <ContactsSection>
+    <ContactsSection id={id}>
       <HeaderContacts>
         <span>{t("contacts.text")}</span>
         <h2>{t("contacts.title")}</h2>

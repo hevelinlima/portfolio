@@ -40,3 +40,12 @@ export const ProjectCards = styled.div`
     width: auto; 
   }
 `
+
+export const Footer = styled.footer`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 1rem;
+
+  font-size: 0.85rem;
+`

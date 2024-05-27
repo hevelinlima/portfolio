@@ -8,14 +8,13 @@ export const ContactsSection = styled.section`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 2.5rem;
+  gap: 2rem;
 
   margin: 1.5rem auto;
-  padding: 1rem 4rem;
+  padding: 3rem 4rem;
   @media only screen and (max-width: 768px) {
-    padding: 1rem 0;
+    padding: 3rem 5rem;
   }
-
 `
 
 export const HeaderContacts = styled.header`
@@ -39,6 +38,11 @@ export const HeaderContacts = styled.header`
     span{
       ${typography.fonts.titleNav};
       font-size: 1.25rem;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    h2{
+      font-size: 2rem;
     }
   }
 `
