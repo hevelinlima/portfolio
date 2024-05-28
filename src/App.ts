@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 import { typography } from "./styles/typography";
 
 export const Container = styled.main`
@@ -49,3 +49,39 @@ export const Footer = styled.footer`
 
   font-size: 0.85rem;
 `
+
+export const drop = keyframes`
+  0% {
+    top: -10%;
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  100% {
+    top: 100%;
+    opacity: 0;
+  }
+`;
+
+export const RainContainer = styled.div`
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: -1;
+  overflow: hidden;
+`;
+
+export const Raindrop = styled.div<{ delay: string, left: number }>`
+  position: absolute;
+  bottom: 100%;
+  width: 1.5px;
+  height: 1.5rem;
+  background: rgba(255, 255, 255, 0.2);
+  animation: ${drop} 1s linear infinite;
+  animation-delay: ${(props) => props.delay};
+  left: ${(props) => props.left}%;
+`;

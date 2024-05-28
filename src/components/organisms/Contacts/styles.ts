@@ -2,7 +2,14 @@ import styled from "styled-components";
 import { typography } from "../../../styles/typography";
 
 export const ContactsSection = styled.section`
-  background-color: ${(props)=>props.theme.colors.contacts};
+  /* background-color: ${(props)=>props.theme.colors.contacts};
+
+  background-color: #2f2b33; */
+  background-image: linear-gradient(45deg, #3a3542 25%, transparent 25%, transparent 50%, #3a3542 50%, #3a3542 75%, transparent 75%, transparent),
+                    linear-gradient(45deg, #3a3542 25%, transparent 25%, transparent 50%, #3a3542 50%, #3a3542 75%, transparent 75%, transparent);
+  background-size: 50px 50px;
+  background-position: 0 0, 25px 25px;
+  animation: bg-scrolling-reverse 0.92s infinite linear;
 
   display: flex;
   flex-direction: column;
@@ -92,10 +99,7 @@ export const EmailButton = styled.a`
     height: 2rem;
   }
   &:hover{
-    background-color: #444;
-    border: 2px solid #444;
-    svg{
-      fill: black;
-    }
+    background-color: ${(props)=>props.theme.colors.contacts};
+    border: 2px solid ${(props)=>props.theme.colors.contacts};
   }
 `
