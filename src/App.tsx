@@ -23,7 +23,7 @@ const generateRaindrops = (numDrops: number) => {
 
 
 
-const projectIds = [1, 2, 3];
+const projectIds = [1, 2, 3, 4];
 
 export function App() {
   const { t } = useTranslation("global")

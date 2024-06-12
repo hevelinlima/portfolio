@@ -30,9 +30,16 @@
         "linkGithub": "https://github.com/hevelinlima/coffee-delivery",
         "linkDeploy": "https://coffee-delivery-app-hevelinlima.vercel.app/",
         "previewImage": "coffee-delivery-preview.png"
+      },{
+        "id": 3,
+        "name": "Github Blog",
+        "description": "Github Blog é uma aplicação que utiliza a API do GitHub para buscar e exibir issues de um repositório e dados de perfil como um blog. As funcionalidades incluem: listagem de perfil com imagem, número de seguidores e outras informações; listagem e filtragem de issues com resumo; e criação de página para exibir um post completo. Para o desenvolvimento, foram utilizados conceitos como Estados, ContextAPI, Fetch/Axios, Roteamento com React Router DOM, Styled-components e React Hook Form.",
+        "linkGithub": "https://github.com/hevelinlima/github-blog",
+        "linkDeploy": "https://github-blog-hevelinlima.vercel.app/",
+        "previewImage": "github-blog-preview.png"
       },
       {
-        "id": 3,
+        "id": 4,
         "name": "Desafio - Linked",
         "description": "Magic: The Gathering é um jogo de cartas colecionáveis onde jogadores usam baralhos personalizados para conjurar criaturas e lançar feitiços. Esta aplicação permite pesquisar coleções de cartas pelo nome e/ou bloco, selecionando uma coleção para obter 15 cartas aleatórias. O processo repete até conseguir 30 cartas do tipo criatura.",
         "stack": "frontend",
