@@ -6,7 +6,7 @@
   <img alt="Pré-vizualização do portfolio" src=".github/portfolio-preview.png">
 </p>
 <p align="center">
-  <em>Confira o resultado do app em: https://desafio-lacrei-hevelinlima.vercel.app/</em>
+  <em>Confira o resultado do app em: https://hev-elin.vercel.app/</em>
 </p>
 
 ## 💻 Projeto
