@@ -32,7 +32,7 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     &::-webkit-scrollbar-thumb:active {
-      background: ${(props)=>props.theme.colors["primary-color"]};
+      background: ${(props)=>props.theme.colors["contacts"]};
     }  
   }
 

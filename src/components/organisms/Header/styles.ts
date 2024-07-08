@@ -11,7 +11,7 @@ export const HeaderContainer = styled.nav`
   width: 100%;
   z-index: 1000; 
   padding: 0 10rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
   
   ul{
     list-style-type: none;
@@ -106,5 +106,10 @@ export const SelectButton = styled.select`
     color: ${(props)=> props.theme.colors['primary-color']};
     border: 2px solid ${(props)=> props.theme.colors['primary-color']};
     cursor: pointer;
+  }
+
+  &:focus {
+    background: ${(props)=> props.theme.colors['background']};
+    color: white;
   }
 `

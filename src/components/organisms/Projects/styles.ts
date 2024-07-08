@@ -8,7 +8,7 @@ export const ProjectCard = styled.div<{ reverse?: string }>`
   
   padding: 1.5rem;
   border-radius: 4px;
-  background-color: #322e38;
+  background-color: ${(props) => props.theme.colors["contacts"]};
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   flex-direction: ${({ reverse }) => (reverse ? 'row-reverse' : 'row')};
 
