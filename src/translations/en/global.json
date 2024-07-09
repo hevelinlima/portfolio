@@ -53,7 +53,7 @@
   "about-me": {
     "title": "About me",
     "skills": "Skills",
-    "experiences":[
+    "courses":[
       {
         "id": 1,
         "name": "Bootcamp Back-end Python and Django",
@@ -72,6 +72,7 @@
       }
     ]
   },
+
   "contacts": {
     "title": "Let's Talk!",
     "text": "Want to start a project?",
@@ -79,6 +80,6 @@
     "email-me": "find me here:"
   },
   "footer":{
-    "content": "2024 Hévelin Lima. All rights reserved."
+    "content": "2024 ・ Hévelin Lima. All rights reserved."
   } 
 }

@@ -5,7 +5,7 @@ interface ExpProps{
   expId: number;
 }
 
-interface ExperienceI{
+interface CoursesI{
   id: number;
   name: string;
   status: string;
@@ -17,21 +17,21 @@ interface ExperienceI{
 export const ExpCard: React.FC<ExpProps> = ({ expId }) =>{
   const { t } = useTranslation("global");
 
-  const experiences: ExperienceI[] = t("about-me.experiences", { returnObjects: true });
+  const courses: CoursesI[] = t("about-me.courses", { returnObjects: true });
 
-  const experience = experiences.find((exp)=> exp.id === expId);
+  const course = courses.find((exp)=> exp.id === expId);
 
-  if (!experience){
-    return <div>Experience not found</div>
+  if (!course){
+    return <div>Course not found</div>
   }
 
   return(
     <ExpContainer>
-      <h3>{experience.name}</h3>
-      <h5>{experience.org}</h5>
-      <h6>{experience.status}</h6>
-      <p>{experience.description}</p>
-      <p>{experience.skills}</p>
+      <h3>{course.name}</h3>
+      <h5>{course.org}</h5>
+      <h6>{course.status}</h6>
+      <p>{course.description}</p>
+      <p>{course.skills}</p>
     </ExpContainer>
   )
 }
