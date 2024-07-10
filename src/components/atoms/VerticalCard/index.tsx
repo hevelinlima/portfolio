@@ -2,7 +2,7 @@ import { useTranslation } from "react-i18next";
 import { ExpContainer } from "./styles";
 
 interface ExpProps{
-  expId: number;
+  courseId: number;
 }
 
 interface CoursesI{
@@ -14,12 +14,12 @@ interface CoursesI{
   skills: string;
 }
 
-export const VerticalCard: React.FC<ExpProps> = ({ expId }) =>{
+export const VerticalCard: React.FC<ExpProps> = ({ courseId }) =>{
   const { t } = useTranslation("global");
 
   const courses: CoursesI[] = t("about-me.courses", { returnObjects: true });
 
-  const course = courses.find((exp)=> exp.id === expId);
+  const course = courses.find((exp)=> exp.id === courseId);
 
   if (!course){
     return <div>Course not found</div>

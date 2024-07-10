@@ -30,7 +30,17 @@ export const SkillsSection = styled.section`
   }
 `
 
-export const ExpContainer =styled.div`
+export const ExpContainer = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  
+  @media (max-width: 1000px) {
+    padding: 0.5rem;
+    width: auto;
+  }
+`
+
+export const HCardContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   
