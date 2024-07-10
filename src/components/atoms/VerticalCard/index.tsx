@@ -14,7 +14,7 @@ interface CoursesI{
   skills: string;
 }
 
-export const ExpCard: React.FC<ExpProps> = ({ expId }) =>{
+export const VerticalCard: React.FC<ExpProps> = ({ expId }) =>{
   const { t } = useTranslation("global");
 
   const courses: CoursesI[] = t("about-me.courses", { returnObjects: true });

@@ -71,7 +71,17 @@
       }
     ] 
   },
-
+  "experience": {
+    "exp1": [
+      {
+        "id": 1,
+        "company": "Lacrei Saúde",
+        "tenure": "06/2024 - presente",
+        "jobTitle": "Desenvolvedora Front-end Jr.",
+        "description": "Voluntária na equipe de desenvolvimento front-end da Lacrei Saúde. As atividades incluem aplicação de handoffs para versões desktop e mobile, atualização de documentação, construção de telas com foco na usabilidade e acessibilidade, adição de novas funcionalidades, refatoração de código e atualizações em aplicações com NextJs."
+      }
+    ]
+  },
   "contacts": {
     "title": "Entre em contato!",
     "text": "Interessou-se por algum tema? Estou aberta para conversar e colaborar!",

@@ -1,7 +1,8 @@
 import { useTranslation } from "react-i18next";
 import { AboutMeContainer, ExpContainer, SkillsSection } from "./styles";
 import stackIcons from "../../../../stack-db.json"
-import { ExpCard } from "../../atoms/ExpCard";
+import { VerticalCard } from "../../atoms/VerticalCard";
+
 
 interface Skills {
   [key: string]: string;
@@ -27,7 +28,7 @@ export const AboutMe: React.FC<AboutMeProps> = ({ id }) => {
       </SkillsSection>
       <ExpContainer>
         {expIds.map((expId) => (
-          <ExpCard
+          <VerticalCard
             key={expId} 
             expId={expId}
           />

@@ -72,7 +72,17 @@
       }
     ]
   },
-
+  "experience": {
+    "exp1": [
+      {
+        "id": 1,
+        "company": "Lacrei Saúde",
+        "tenure": "June 2024 - present",
+        "jobTitle": "Front-end Developer Jr.",
+        "description": "Volunteer on the front-end development team at Lacrei Saúde. Activities include: applying handoffs for desktop and mobile versions, updating documentation, building screens with a focus on usability and accessibility, adding new features, code refactoring, and updating applications using NextJs."
+      }
+    ]
+  },
   "contacts": {
     "title": "Let's Talk!",
     "text": "Want to start a project?",
