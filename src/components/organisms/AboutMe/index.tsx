@@ -1,8 +1,8 @@
 import { useTranslation } from "react-i18next";
-import { AboutMeContainer, ExpContainer, HCardContainer, SkillsSection } from "./styles";
+import { AboutMeContainer, ExpContainer, SkillsSection } from "./styles";
 import stackIcons from "../../../../stack-db.json"
 import { VerticalCard } from "../../atoms/VerticalCard";
-import { HorizontalCard } from "../../atoms/HorizontalCard";
+
 
 
 interface Skills {
@@ -14,7 +14,7 @@ interface AboutMeProps{
 }
 
 const courseIds = [1, 2];
-const expIds = [1];
+// const expIds = [1];
 
 export const AboutMe: React.FC<AboutMeProps> = ({ id }) => {
   const { t } = useTranslation("global");
@@ -28,14 +28,14 @@ export const AboutMe: React.FC<AboutMeProps> = ({ id }) => {
           <img key={skill} src={skills[skill]} alt={skill} /> 
         ))}
       </SkillsSection>
-      <HCardContainer>
+      {/* <HCardContainer>
         {expIds.map((expId) => (
             <HorizontalCard
               key={expId} 
               expId={expId}
             />
           ))}
-      </HCardContainer>
+      </HCardContainer> */}
       <ExpContainer>
         {courseIds.map((courseId) => (
           <VerticalCard

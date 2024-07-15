@@ -56,19 +56,19 @@
     "courses":[
       {
         "id": 1,
+        "name": "Front-end Developer Jr.",
+        "status": "June 2024 - present",
+        "org": "Lacrei Saúde",
+        "description": "Volunteer on the front-end development team at Lacrei Saúde. Activities include: applying handoffs for desktop and mobile versions, updating documentation, building screens focusing on usability and accessibility, adding new features, code refactoring, and updating applications using NextJs.",
+        "skills": "Skills: NextJs, React, Typescript"
+      },
+      {
+        "id": 2,
         "name": "Bootcamp Back-end Python and Django",
         "status": "Complete",
         "org": "WoMakersCode",
         "description": "It's a 3.5-month course in Python, covering the concepts of the language, the main web development frameworks and integration with Artificial Intelligence.",
         "skills": "Syllabus: Object orientation in Python, data structure, API development, Architecture and tests, database. Soft skills, career plan and employability"
-      },
-      {
-        "id": 2,
-        "name": "ONE - Oracle Next Education: Back-end specialization with Java",
-        "status": "In progress",
-        "org": "Alura + Oracle ONE",
-        "description": "An 6-month back-end coding curriculum designed to provide high-quality industry level training with an emphasis on hands-on projects.",
-        "skills": "Syllabus: Java and Spring Framework, App integration with Java and ChatGPT, personal development, entrepreneurship and agility"
       }
     ]
   },
